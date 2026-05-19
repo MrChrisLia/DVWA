@@ -57,3 +57,4 @@ $number_of_rows = mysqli_fetch_row( $result )[0];
 
 mysqli_close($GLOBALS["___mysqli_ston"]);
 ?>
+
