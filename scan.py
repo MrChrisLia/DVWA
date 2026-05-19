@@ -60,7 +60,7 @@ def scan_file(client, filepath):
     print("=" * 60)
 
     message = client.messages.create(
-        model="claude-3-7-sonnet-latest",
+        model="claude-sonnet-4-6",
         max_tokens=1024,
         messages=[
             {
